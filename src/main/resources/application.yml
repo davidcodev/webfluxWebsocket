@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: ms-prueba
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: '000000'
+  sql:
+    init:
+      mode: always
